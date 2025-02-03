@@ -34,6 +34,7 @@ modelo = joblib.load("modelo_edad_dni.pkl")
 nuevo_dni = [[xxxxxxxx]]  # Reemplazar con el DNI deseado
 
 edad_predicha = modelo.predict(nuevo_dni)
+
 print(f"Edad estimada: {edad_predicha[0]:.2f} años")
 
 --Ejecutarlo en Google Colab (si no tienes Python localmente)
